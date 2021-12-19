@@ -1,0 +1,48 @@
+﻿@model IEnumerable<AP.Oefenproject.WebApp.Models.Circuit>
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Circuits List</h2>
+        </div>
+        <div class="col-6 text-right">
+            <a asp-controller="Circuits" asp-action="Create" class="btn btn-primary">Create new Circuit</a>
+        </div>
+    </div>
+    <br />
+    @if(Model.Count() > 0)
+    {
+        <table class="table table-bordered table-striped" style="width:100%">
+            <thead>
+                <th>
+                    Circuit id
+                </th>
+                <th>
+                    Circuit name
+                </th>
+                <th>
+                    Changes
+                </th>
+            </thead>
+            <tbody>
+                @foreach (Circuit circuit in Model)
+                {
+                <tr>
+                    <td width="35%">@circuit.Circuit_id</td>
+                    <td width="35%">@circuit.Circuit_name</td>
+                    <td width="30%">
+                        <div class="w-100 btn-group" role="group">
+                            <a asp-controller="Circuits" asp-action="Update" asp-route-Id="@circuit.Circuit_id" class="btn btn-primary mx-1">Update</a>
+                            <a asp-controller="Circuits" asp-action="Delete" asp-route-Id="@circuit.Circuit_id" class="btn btn-danger mx-1">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No Circuits created yet</p>
+    }
+</div>
