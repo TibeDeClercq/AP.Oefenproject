@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = AP.Oefenproject.WebAPI
+build_property.ProjectDir = D:\Documenten\school\2021-2022\Semester 1\.NET advanced\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.WebAPI\
