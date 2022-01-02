@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.BLL\\AP.Oefenproject.BLL.csproj": {}
+    "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.BLL\\AP.Oefenproject.BLL.csproj": {}
   },
   "projects": {
-    "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.BLL\\AP.Oefenproject.BLL.csproj": {
+    "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.BLL\\AP.Oefenproject.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.BLL\\AP.Oefenproject.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.BLL\\AP.Oefenproject.BLL.csproj",
         "projectName": "AP.Oefenproject.BLL",
-        "projectPath": "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.BLL\\AP.Oefenproject.BLL.csproj",
+        "projectPath": "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.BLL\\AP.Oefenproject.BLL.csproj",
         "packagesPath": "C:\\Users\\tibed\\.nuget\\packages\\",
-        "outputPath": "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.BLL\\obj\\",
+        "outputPath": "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tibed\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.DAL\\AP.Oefenproject.DAL.csproj": {
-                "projectPath": "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.DAL\\AP.Oefenproject.DAL.csproj"
+              "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.DAL\\AP.Oefenproject.DAL.csproj": {
+                "projectPath": "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.DAL\\AP.Oefenproject.DAL.csproj"
               }
             }
           }
@@ -58,18 +58,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.DAL\\AP.Oefenproject.DAL.csproj": {
+    "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.DAL\\AP.Oefenproject.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.DAL\\AP.Oefenproject.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.DAL\\AP.Oefenproject.DAL.csproj",
         "projectName": "AP.Oefenproject.DAL",
-        "projectPath": "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.DAL\\AP.Oefenproject.DAL.csproj",
+        "projectPath": "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.DAL\\AP.Oefenproject.DAL.csproj",
         "packagesPath": "C:\\Users\\tibed\\.nuget\\packages\\",
-        "outputPath": "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.DAL\\obj\\",
+        "outputPath": "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tibed\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -132,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yz0qGHkPLx8tPiQlarCy+UfMiw0q1fOukhpFT4ccG8BZm9AKi3fvIUncZrNTaJXqvFaWTWTib2Uk9nBcG95H6w==",
+  "dgSpecHash": "YsiQ8Vt/+YmKFr4GJTjhgzaWjaUxQtx0+qd3IF2Y3hqPrY9D3E59zoGxRl8ZczzH/0cUrhYRYjI5x1enV2XDmQ==",
   "success": true,
-  "projectFilePath": "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.WebApp\\AP.Oefenproject.WebApp.csproj",
+  "projectFilePath": "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.WebApp\\AP.Oefenproject.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tibed\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tibed\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",

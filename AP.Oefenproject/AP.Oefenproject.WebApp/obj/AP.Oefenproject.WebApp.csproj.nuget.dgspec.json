@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.WebApp\\AP.Oefenproject.WebApp.csproj": {}
+    "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.WebApp\\AP.Oefenproject.WebApp.csproj": {}
   },
   "projects": {
-    "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.WebApp\\AP.Oefenproject.WebApp.csproj": {
+    "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.WebApp\\AP.Oefenproject.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.WebApp\\AP.Oefenproject.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.WebApp\\AP.Oefenproject.WebApp.csproj",
         "projectName": "AP.Oefenproject.WebApp",
-        "projectPath": "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.WebApp\\AP.Oefenproject.WebApp.csproj",
+        "projectPath": "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.WebApp\\AP.Oefenproject.WebApp.csproj",
         "packagesPath": "C:\\Users\\tibed\\.nuget\\packages\\",
-        "outputPath": "D:\\Documenten\\school\\2021-2022\\Semester 1\\.NET advanced\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.WebApp\\obj\\",
+        "outputPath": "C:\\Users\\tibed\\Documents\\AP Hogeschool\\2021-2022\\Semester 1\\.NET advanced\\Labo's\\Oefenproject-repo\\AP.Oefenproject\\AP.Oefenproject.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tibed\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

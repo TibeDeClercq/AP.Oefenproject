@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 using AP.Oefenproject.DAL.Model;
 using AP.Oefenproject.BLL.Interfaces;
 
@@ -48,13 +49,27 @@ namespace AP.Oefenproject.WebAPI.Controllers
         [HttpPost]
         public IActionResult Add([FromBody] Circuit circuit)
         {
-            var result = _circuitService.Add(circuit);
+            var result = _circuitService.Create(circuit);
 
             if (result == null)
             {
                 return BadRequest();
             }
             return Created("", result);
+        }
+
+        [HttpPut]
+        public IActionResult Update([FromBody] Circuit circuit)
+        {
+            try
+            {
+                _circuitService.Update(circuit);
+            }
+            catch (Exception)
+            {
+                return BadRequest();
+            }
+            return Ok();
         }
 
         [HttpDelete]
@@ -68,20 +83,6 @@ namespace AP.Oefenproject.WebAPI.Controllers
             catch (Exception)
             {
                 return NotFound();
-            }
-            return Ok();
-        }
-
-        [HttpPut]
-        public IActionResult Update([FromBody] Circuit circuit)
-        {
-            try
-            {
-                _circuitService.Update(circuit);
-            }
-            catch (Exception)
-            {
-                return BadRequest();
             }
             return Ok();
         }

@@ -35,7 +35,7 @@ namespace AP.Oefenproject.WebAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AP.Oefenproject.WebAPI", Version = "v1" });
             });
 
-            services.RegisterContexts();
+            services.RegisterDataAccessServices();
             services.RegisterServices();
         }
 

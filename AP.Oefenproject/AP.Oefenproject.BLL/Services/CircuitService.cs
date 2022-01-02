@@ -1,38 +1,47 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
+
 using AP.Oefenproject.BLL.Interfaces;
 using AP.Oefenproject.DAL.Contexts;
 using AP.Oefenproject.DAL.Model;
-using System.Linq;
+using AP.Oefenproject.DAL.UOW;
 
 namespace AP.Oefenproject.BLL.Services
 {
     public class CircuitService : ICircuitService
     {
-        private OefenprojectContext _oefenprojectContext;
+        private IUnitOfWork _unitOfWork;
 
-        public CircuitService(OefenprojectContext oefenprojectContext)
+        public CircuitService(IUnitOfWork unitOfWork)
         {
-            _oefenprojectContext = oefenprojectContext;
+            _unitOfWork = unitOfWork;
         }
 
-        public List<Circuit> GetAll()
+        public IEnumerable<Circuit> GetAll()
         {
-            return _oefenprojectContext.Circuits.ToList();
+            return _unitOfWork.CircuitRepository.GetAll();
         }
 
         public Circuit GetById(int id)
         {
-            return _oefenprojectContext.Circuits.Find(id);
+            return _unitOfWork.CircuitRepository.GetById(id);
         }
 
-        public Circuit Add(Circuit circuit)
+        public Circuit Create(Circuit circuit)
         {
             try
             {
-                _oefenprojectContext.Circuits.Add(circuit);
-                _oefenprojectContext.SaveChanges();
+                circuit = _unitOfWork.CircuitRepository.Create(circuit);
+                //extra Creates voor onderliggende relaties (bv lijst van races toevoegen indien meegegeven)
+
+                //foreach(Race race in circuit.Races)
+                //{
+                //    _unitOfWork.RaceRepository.Create(race);
+                //}
+
+                _unitOfWork.Commit();
                 return circuit;
             } catch(Exception e)
             {
@@ -40,29 +49,27 @@ namespace AP.Oefenproject.BLL.Services
             }
         }
 
-        public void Delete(int id)
+        public void Update(Circuit circuit)
         {
-            var circuit = _oefenprojectContext.Circuits.Find(id);
-            if(circuit != null)
+            try
             {
-                _oefenprojectContext.Remove(circuit);
-                _oefenprojectContext.SaveChanges();
+                _unitOfWork.CircuitRepository.Update(circuit);
+                _unitOfWork.Commit();
             }
-            else
+            catch(Exception e)
             {
                 throw new KeyNotFoundException("");
             }
         }
 
-        public void Update(Circuit circuit)
+        public void Delete(int id)
         {
-            //var circuitFound = _oefenprojectContext.Circuits.Find(circuit.Circuit_id);
-            if (circuit != null)
+            try
             {
-                _oefenprojectContext.Circuits.Update(circuit);
-                _oefenprojectContext.SaveChanges();
+                _unitOfWork.CircuitRepository.Delete(id);
+                _unitOfWork.Commit();
             }
-            else
+            catch(Exception e)
             {
                 throw new KeyNotFoundException("");
             }
