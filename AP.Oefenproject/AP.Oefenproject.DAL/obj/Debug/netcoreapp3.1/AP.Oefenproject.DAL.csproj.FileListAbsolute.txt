@@ -22,3 +22,16 @@ C:\Users\tibed\Documents\AP Hogeschool\2021-2022\Semester 1\.NET advanced\Labo's
 C:\Users\tibed\Documents\AP Hogeschool\2021-2022\Semester 1\.NET advanced\Labo's\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\obj\Debug\netcoreapp3.1\AP.Oefenproject.DAL.dll
 C:\Users\tibed\Documents\AP Hogeschool\2021-2022\Semester 1\.NET advanced\Labo's\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\obj\Debug\netcoreapp3.1\AP.Oefenproject.DAL.pdb
 C:\Users\tibed\Documents\AP Hogeschool\2021-2022\Semester 1\.NET advanced\Labo's\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\obj\Debug\netcoreapp3.1\AP.Oefenproject.DAL.genruntimeconfig.cache
+D:\Documenten\school\2021-2022\Semester 1\.NET advanced\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\bin\Debug\netcoreapp3.1\AP.Oefenproject.DAL.deps.json
+D:\Documenten\school\2021-2022\Semester 1\.NET advanced\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\bin\Debug\netcoreapp3.1\AP.Oefenproject.DAL.runtimeconfig.json
+D:\Documenten\school\2021-2022\Semester 1\.NET advanced\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\bin\Debug\netcoreapp3.1\AP.Oefenproject.DAL.runtimeconfig.dev.json
+D:\Documenten\school\2021-2022\Semester 1\.NET advanced\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\bin\Debug\netcoreapp3.1\AP.Oefenproject.DAL.dll
+D:\Documenten\school\2021-2022\Semester 1\.NET advanced\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\bin\Debug\netcoreapp3.1\AP.Oefenproject.DAL.pdb
+D:\Documenten\school\2021-2022\Semester 1\.NET advanced\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\obj\Debug\netcoreapp3.1\AP.Oefenproject.DAL.csproj.AssemblyReference.cache
+D:\Documenten\school\2021-2022\Semester 1\.NET advanced\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\obj\Debug\netcoreapp3.1\AP.Oefenproject.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documenten\school\2021-2022\Semester 1\.NET advanced\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\obj\Debug\netcoreapp3.1\AP.Oefenproject.DAL.AssemblyInfoInputs.cache
+D:\Documenten\school\2021-2022\Semester 1\.NET advanced\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\obj\Debug\netcoreapp3.1\AP.Oefenproject.DAL.AssemblyInfo.cs
+D:\Documenten\school\2021-2022\Semester 1\.NET advanced\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\obj\Debug\netcoreapp3.1\AP.Oefenproject.DAL.csproj.CoreCompileInputs.cache
+D:\Documenten\school\2021-2022\Semester 1\.NET advanced\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\obj\Debug\netcoreapp3.1\AP.Oefenproject.DAL.dll
+D:\Documenten\school\2021-2022\Semester 1\.NET advanced\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\obj\Debug\netcoreapp3.1\AP.Oefenproject.DAL.pdb
+D:\Documenten\school\2021-2022\Semester 1\.NET advanced\Oefenproject-repo\AP.Oefenproject\AP.Oefenproject.DAL\obj\Debug\netcoreapp3.1\AP.Oefenproject.DAL.genruntimeconfig.cache

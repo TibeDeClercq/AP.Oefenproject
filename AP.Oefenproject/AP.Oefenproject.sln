@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AP.Oefenproject.BLL", "AP.O
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AP.Oefenproject.WebAPI", "AP.Oefenproject.WebAPI\AP.Oefenproject.WebAPI.csproj", "{CBB52E70-4BB2-482A-9D83-D94D6AA2DF53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AP.Oefenproject.WebApp", "AP.Oefenproject.WebApp\AP.Oefenproject.WebApp.csproj", "{EB3119FD-8E00-4AC1-AB28-AAA9276ABC24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AP.Oefenproject.WebApp", "AP.Oefenproject.WebApp\AP.Oefenproject.WebApp.csproj", "{EB3119FD-8E00-4AC1-AB28-AAA9276ABC24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{43AE603E-B11F-4E1F-93C6-555E35E2EBC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EB3119FD-8E00-4AC1-AB28-AAA9276ABC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB3119FD-8E00-4AC1-AB28-AAA9276ABC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB3119FD-8E00-4AC1-AB28-AAA9276ABC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43AE603E-B11F-4E1F-93C6-555E35E2EBC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AE603E-B11F-4E1F-93C6-555E35E2EBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AE603E-B11F-4E1F-93C6-555E35E2EBC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AE603E-B11F-4E1F-93C6-555E35E2EBC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
